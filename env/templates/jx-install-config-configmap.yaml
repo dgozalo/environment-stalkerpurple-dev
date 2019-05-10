@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAL8WW7O4Uqm/bV0RULeihbcwDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkMjYxMjljOGYtNzQ1NC00OGFhLTk0NDEtYjg0ZTA4MWE0MGFj
+    MB4XDTE5MDUxMDE0MzIyN1oXDTI0MDUwODE1MzIyN1owLzEtMCsGA1UEAxMkMjYx
+    MjljOGYtNzQ1NC00OGFhLTk0NDEtYjg0ZTA4MWE0MGFjMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAyEfFkgbEHG+zpsRsvNXOThcEFXkdItuw0R6Y9079
+    IkEOlaqmcmc4mIJkIJf/lsPt53vQEv0jrf930cHxfH/LBI9J7UnaAJ26EXvhrTYq
+    OIWuc7kJvOBQXB+F8bO3kDCCpek1pSP4EW2LdHfotMvyKZOEL7GqsYc2HTaQA6V/
+    5UnENTKj8Jse145Qgmg6zd/YFBjNyxNYGAvipdISQC0jhDBINGn004OxCnDtfDks
+    TLbJalIp0D+4/3jIE3OPhzCfQGhtWK1ff5rj7X52MbS8aRTROX3vgn7uxrnZDZNY
+    vvuuy7EenVLkuFhOuTeSdSBgvCgIYtCnaR/1cvfPtuWPcQIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    DzzcXwFx+rG7YJlSiaD1snFYrA42R1x3RYRHwXr0JpShtRyCCfVwdccWd9JgRNlh
+    cqyFEjFDNRQLVfqxDXH4bSmdRZCpvur1DNP4lVtMG7eHCSbL9B1AkWhfrHJuLn6y
+    JrokBu0sgODx4Vj46B2J9oPM7DuqEu+kih16PzkQoeeE956N2c20pBIUCP/NXnfV
+    no5PEioIQERLDpSr6IoV95qWUR5By6hOoXbAm9jdil2JyxBbYWlM7osAmJ3lhP+x
+    ezFCltzUmqntvIM8SianQyRSMm6GMffvG56JWdM5xl5w22HiDkRbS2Ubxa5uN9wy
+    QGOdprzsT/8DA9AdyzlcpQ==
+    -----END CERTIFICATE-----
+  clusterName: stalkerpurple
+  jx-install-version: 2.0.0-dev+138b901df
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.195.80.34
+  systemVaultName: jx-vault-stalkerpurple
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
